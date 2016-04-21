@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{bc58b5ce-fafb-43f7-bd79-47f087850291}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sequence\Title.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Parent.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Child.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="fps.cpp" />
+    <ClCompile Include="Sequence\Select.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="System\Control.cpp" />
+    <ClCompile Include="System\Cursor.cpp" />
+    <ClCompile Include="System\Notes.cpp" />
+    <ClCompile Include="Sequence\Play.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sequence\Title.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Parent.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Child.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Base.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="fps.h" />
+    <ClInclude Include="Sequence\Select.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="System\Control.h" />
+    <ClInclude Include="System\Cursor.h" />
+    <ClInclude Include="System\Notes.h" />
+    <ClInclude Include="Sequence\Play.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

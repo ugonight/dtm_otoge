@@ -1,0 +1,19 @@
+#TITLE カーディアンエンジェル
+#GENRE UTAU
+#ARTIST ミントP feat.緋惺
+#BPM 150
+
+#MUSIC music.ogg
+#DEMO demo.ogg
+#JAKET jaket.png
+
+#LEVEL 0,EASY
+#LEVEL 1,NOMAL
+#LEVEL 2,HARD
+#LEVEL 3,MASTER
+
+#SCORE 0,humen0.hmn
+#SCORE 1,humen1.hmn
+#SCORE 2,humen2.hmn
+#SCORE 3,humen3.hmn
+
